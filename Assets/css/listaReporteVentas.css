@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tituloFechas{
+font-size: 22px;
+font-weight: 700;
+
+}
+
+
+
+.contenedorSuper{
+    background-color: #20393E;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    padding: 2rem 0;
+   
+}
+
+.tituloEmpresa{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.tablaPrincipal{
+    border: solid 2px black;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 99%;
+}
+
+.bordeTitulos{
+    background-color: #4A7C87;
+    color: white;
+}
+
+.tituloFechas{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedorBotones{
+        margin: 0 auto;
+    display: grid;
+    width: 30%;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 15px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.btnUltimo{
+  /*  background-color: #01333D;
+    color: white;*/
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.btnUltimo:hover{
+    cursor: pointer;
+}
+
+.btnRegresar{
+    width: 100%;
+    height: 40px;
+}
+
+
+button {
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    outline: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+    border: none;
+}
+
+button span {
+    position: absolute;
+    background:black;
+    transition: .5s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}
+
+
+
+.tablaPrincipal2{
+    width: 95%;
+}

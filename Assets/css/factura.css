@@ -1,0 +1,224 @@
+
+
+
+.titulo{
+    border-style: solid;
+    text-align: center;
+    line-height: 10px;
+    margin-right: 50px;
+   
+}
+
+
+.container{
+    border: solid 2px black;
+    padding: 15px;
+    width: 60%;
+    
+    margin: 0 auto;
+    
+}
+
+.cambiarTamanioContainer{
+    width: 90%;
+   /* background: black;*/
+}
+
+.negrita, .titulo.negrita ,.datosUsuario.negrita{
+    font-weight: bold;
+}
+
+.cabecera{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.etiquetasUsuario{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+
+
+/*.infoUsuario{
+    border-top: solid 1px black;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    line-height: 7px;
+    column-gap: 0;
+}*/
+.infoUsuario{
+    
+    border-top: solid 2px black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.camposTexto{
+    border: solid 2px black;
+    text-align: right;
+    color: black;
+}
+.textnegro{
+    font-weight: bold;
+}
+
+.precios{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+
+.datosUsuario{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+    /*border-style: solid;*/
+    margin-right: 200px;
+    
+}
+.largowidth{
+    width: 100%;
+}
+
+.negritaSinBorde{
+    width: 400px;
+    border: 0;
+    font-weight: 700;
+    color: black;
+}
+
+.titulosPrecios{
+    text-align: right;
+    margin-right: 20px;
+    line-height: 7px;
+}
+
+.contenedorPrecios{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.detallesPrecio{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    border-top: solid 2px #4D74A5;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ultimo{
+    border-top: solid 1px black;
+}
+.center{
+    text-align: center;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-style: italic;
+    width: 80%;
+}
+
+.azul{
+color: #0840FF;
+}
+
+table{
+    border: solid 3px black;
+    line-height: 15px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+
+
+
+}
+
+.tablita{
+   
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    width:100%; margin:0 auto;
+    margin-bottom: 20px;
+
+    
+}
+
+
+
+.precios2{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin-top: 10px;
+        margin-right: 100px;
+        
+       
+    
+}
+
+.detallesCargos{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin-left: 700px;
+}
+
+.etiquetaPrecios2{
+    text-align: right;
+  
+}
+
+.sinBorde{
+    border: 0;
+}
+
+.LargoPequeno{
+    width: 95%;
+    text-align: right;
+}
+
+.contenedorBotones{
+        margin: 0 auto;
+    display: grid;
+    width: 30%;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 15px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+
+
+}
+.btnUltimo{
+    width: 100%;
+    height: 32px;
+     font-size: 17px;
+     border-radius: 5px;
+     color: white;
+     background-color: #194258;
+
+}
+
+.btnImprimir{
+    height: 32px;
+     font-size: 17px;
+     background-color: ;
+     border-radius: 5px;
+     background-color: #194258;
+     color: white;
+}
+
+.btnUltimo:hover{
+    cursor: pointer;
+}
+
+.btnImprimir:hover{
+    cursor: pointer;
+}

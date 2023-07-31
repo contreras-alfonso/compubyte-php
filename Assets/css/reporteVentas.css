@@ -1,0 +1,120 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+a{
+	 text-decoration:none;
+	 color: black;
+}
+
+.borderCentral{
+	border: 1px solid #C8C8C8;
+	padding: 3rem;
+	border-radius: 7px;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 90px;
+	background-color: #595959;
+	color: white;
+}
+
+.camposPassw{
+	width: 100%;
+	font-size: 17px;
+	padding: 10px;
+	height: 60%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #E5E5E5;
+	color: black;
+	border-radius: 7px;
+
+
+}
+.selectReporte{
+	background-color: #E5E5E5;
+	font-size: 17px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+
+
+
+.btnCambiarContra{
+	background-color: #B24858;
+	font-size: 20px;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+	border: none;
+	padding: 10px 25px;
+	margin-top: 40px;
+	width: 100%;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 1px;
+}
+
+.textFecha{
+	font-size: 17px;
+}
+
+
+.btnCambiarContra:hover{
+	
+	cursor: pointer;
+	
+}
+
+.borderLinea{
+	border-bottom: 1px solid #C8C8C8;
+
+	margin-bottom: 30px;
+}
+.contenederInformacion{
+	width: 35%;
+	margin: 0 auto;
+	
+	text-align: justify;
+}
+
+.contenedorTitulo{
+	width: 20%;
+	margin-left: 33%;
+	margin-top: 100px;
+	color: black;
+	font-size: 30px;
+
+	display: grid;
+    grid-template-columns:repeat(2,1fr);
+    color: #545454;
+
+}
+
+
+
+
+.negrita{
+	font-style: bold;
+}
+
+
+
+
+.campoNombre{
+	color: black;
+	font-size: 26px;
+	text-align: center;
+}
+
+.campoEmail{
+	margin: 0 auto;
+	border: 2px solid #C8C8C8;
+	border-radius: 7px;
+	padding: 5px;
+	width: 60%;
+	color: black;
+	text-align: center;
+
+}
